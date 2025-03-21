@@ -1,0 +1,9 @@
+﻿  Contact.c
+  SeqList.c
+D:\c语言文件\通讯录\SeqList.c(33,11): warning C4047: “函数”:“const char *”与“void *(__cdecl *)(void *,size_t)”的间接级别不同
+D:\c语言文件\通讯录\SeqList.c(33,11): warning C4024: “perror”: 形参和实参 1 的类型不同
+  test.cpp
+test.obj : error LNK2001: 无法解析的外部符号 "void __cdecl contactInit(struct SepList *)" (?contactInit@@YAXPEAUSepList@@@Z)
+    已定义且可能匹配的符号上的提示:
+      contactInit
+D:\c语言文件\通讯录\x64\Release\通讯录.exe : fatal error LNK1120: 1 个无法解析的外部命令
